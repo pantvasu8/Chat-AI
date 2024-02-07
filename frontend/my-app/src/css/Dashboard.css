@@ -1,0 +1,34 @@
+.dashboard-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* Center the charts horizontally */
+    align-items: flex-start;
+    /* Align items at the top vertically */
+}
+.content {
+    flex: 1;
+    overflow-y: auto;
+    padding: 20px;
+}
+.chart-wrapper {
+    flex-basis: calc(50% - 40px);
+    /* Set width to 50% minus margins */
+    margin: 20px;
+}
+
+/* Additional styles for individual charts if needed */
+
+.pie-chart,
+.line-chart,.bar-chart,.scatter-plot {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.line-chart, .bar-chart, .pie-chart, .scatter-plot {
+    background-color: #f0f0f0;
+}
+
+/* Add more styles as needed */
